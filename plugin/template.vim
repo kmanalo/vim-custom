@@ -25,7 +25,7 @@ endfunction
 
 " skeleton templates for python
 function! NewPythonFile()
-    silent! 0r ~/.vim/vim-custom/templates/skeleton.py
+    silent! 0r ~/.vim/bundle/vim-custom/templates/skeleton.py
 
     " insert filename at FILENAME
     3s/FILENAME/\=expand("%:t")
